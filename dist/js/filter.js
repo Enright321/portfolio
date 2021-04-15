@@ -16,20 +16,40 @@ filter.addEventListener('keyup', e => {
 
   if (text == 'javascript') {
     item_a.style.display = 'none';
+    item_f.style.display = 'none';
 
   } else if (text === 'python') {
     item_b.style.display = 'none';
+    item_c.style.display = 'none';
+    item_d.style.display = 'none';
+    item_e.style.display = 'none';
+    item_f.style.display = 'none';
 
   } else if (text === 'bootstrap') {
+    item_f.style.display = 'none';
+  } else if (text === 'html/css') {
+  } else if (text === 'django') {
     item_b.style.display = 'none';
-  } else if (text === 'html') {
+    item_c.style.display = 'none';
+    item_d.style.display = 'none';
+    item_e.style.display = 'none';
+    item_f.style.display = 'none';
+  } else if (text === 'html/css') {
+    item_a.style.display = 'none';
     item_b.style.display = 'none';
-  } else if (text === 'css') {
-    item_b.style.display = 'none';
+    item_c.style.display = 'none';
+    item_d.style.display = 'none';
+    item_e.style.display = 'none';
+    item_f.style.display = 'none';
   } else if (text === 'c++') {
+    item_a.style.display = 'none';
     item_b.style.display = 'none';
+    item_c.style.display = 'none';
+    item_d.style.display = 'none';
+    item_e.style.display = 'none';
   } else if (text === 'api') {
-    item_b.style.display = 'none';
+    item_a.style.display = 'none';
+    item_f.style.display = 'none';
 
   } else {
     item_a.style.display = 'initial';

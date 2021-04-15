@@ -25,6 +25,10 @@
 
 // smartphones
 @media(max-width: 500px) {
+  #label {
+    font-size: 0.75rem;
+  }
+
   #main-nav {
     li {
       padding: 1rem;
@@ -41,7 +45,7 @@
       }
     }
     &-inner {
-      height: 10rem;
+      height: 5rem;
     }
   }
 

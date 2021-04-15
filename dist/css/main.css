@@ -101,6 +101,11 @@ input[class^='btn-']:hover {
   grid-template-columns: repeat(3, 1fr);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3); }
 
+.items .item-text-category,
+.items .item-text-title {
+  color: black;
+  background-color: white; }
+
 .item {
   position: relative;
   background: #333;
@@ -118,10 +123,9 @@ input[class^='btn-']:hover {
     transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
     transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1); }
   .item:hover .item-image {
-    transform: scale(-1.2);
+    transform: scale(1.2);
     opacity: 0; }
   .item:hover .item-gif {
-    transform: scale(1);
     opacity: 1;
     top: 0;
     left: 0;
@@ -380,6 +384,8 @@ img {
     max-width: 500px; } }
 
 @media (max-width: 500px) {
+  #label {
+    font-size: 0.75rem; }
   #main-nav li {
     padding: 1rem; }
   #header-home {
@@ -389,7 +395,7 @@ img {
     #header-home .header-content {
       display: none; }
   #header-inner {
-    height: 10rem; }
+    height: 5rem; }
   #home-b .specials,
   #home-c .stats,
   #home-a .process,
