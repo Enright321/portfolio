@@ -15,50 +15,50 @@ filter.addEventListener('keyup', e => {
   const text = e.target.value.toLowerCase();
 
   if (text == 'javascript') {
-    item_a.style.display = 'none';
-    item_f.style.display = 'none';
-    item_h.style.display = 'none';
+    item_b.style.display = 'none';
+    item_c.style.display = 'none';
+    item_g.style.display = 'none';
+    item_i.style.display = 'none';
 
   } else if (text === 'python') {
-    item_b.style.display = 'none';
-    item_c.style.display = 'none';
+    item_a.style.display = 'none';
     item_d.style.display = 'none';
     item_e.style.display = 'none';
     item_f.style.display = 'none';
     item_g.style.display = 'none';
+    item_h.style.display = 'none';
 
   } else if (text === 'bootstrap') {
-    item_d.style.display = 'none';
-    item_f.style.display = 'none';
-    item_g.style.display = 'none';
-  } else if (text === 'django') {
-    item_b.style.display = 'none';
     item_c.style.display = 'none';
-    item_d.style.display = 'none';
     item_e.style.display = 'none';
     item_f.style.display = 'none';
-    item_g.style.display = 'none';
-  } else if (text === 'html/css') {
+  } else if (text === 'django') {
     item_a.style.display = 'none';
     item_b.style.display = 'none';
-    item_c.style.display = 'none';
+    item_d.style.display = 'none';
     item_e.style.display = 'none';
     item_f.style.display = 'none';
     item_g.style.display = 'none';
+    item_h.style.display = 'none';
+  } else if (text === 'html/css') {
+    item_b.style.display = 'none';
+    item_f.style.display = 'none';
+    item_g.style.display = 'none';
+    item_h.style.display = 'none';
   } else if (text === 'c++') {
     item_a.style.display = 'none';
     item_b.style.display = 'none';
     item_c.style.display = 'none';
     item_d.style.display = 'none';
     item_e.style.display = 'none';
-    item_g.style.display = 'none';
-    item_h.style.display = 'none';
-  } else if (text === 'api') {
-    item_a.style.display = 'none';
-    item_d.style.display = 'none';
-    item_e.style.display = 'none';
     item_f.style.display = 'none';
+    item_h.style.display = 'none';
+    item_i.style.display = 'none';
+  } else if (text === 'api') {
+    item_b.style.display = 'none';
+    item_c.style.display = 'none';
     item_g.style.display = 'none';
+    item_i.style.display = 'none';
 
   } else {
     item_a.style.display = 'initial';
@@ -69,6 +69,7 @@ filter.addEventListener('keyup', e => {
     item_f.style.display = 'initial';
     item_g.style.display = 'initial';
     item_h.style.display = 'initial';
+    item_i.style.display = 'initial';
   }
 
 });
