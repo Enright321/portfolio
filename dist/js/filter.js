@@ -10,16 +10,13 @@ let item_g = document.querySelector('.item-g');
 let item_h = document.querySelector('.item-h');
 let item_i = document.querySelector('.item-i');
 
-
-filter.addEventListener('keyup', e => {
+filter.addEventListener('keyup', (e) => {
   const text = e.target.value.toLowerCase();
 
   if (text == 'javascript') {
     item_b.style.display = 'none';
     item_c.style.display = 'none';
     item_g.style.display = 'none';
-    item_i.style.display = 'none';
-
   } else if (text === 'python') {
     item_a.style.display = 'none';
     item_d.style.display = 'none';
@@ -27,11 +24,12 @@ filter.addEventListener('keyup', e => {
     item_f.style.display = 'none';
     item_g.style.display = 'none';
     item_h.style.display = 'none';
-
+    item_i.style.display = 'none';
   } else if (text === 'bootstrap') {
     item_c.style.display = 'none';
     item_e.style.display = 'none';
     item_f.style.display = 'none';
+    item_i.style.display = 'none';
   } else if (text === 'django') {
     item_a.style.display = 'none';
     item_b.style.display = 'none';
@@ -40,6 +38,7 @@ filter.addEventListener('keyup', e => {
     item_f.style.display = 'none';
     item_g.style.display = 'none';
     item_h.style.display = 'none';
+    item_i.style.display = 'none';
   } else if (text === 'html/css') {
     item_b.style.display = 'none';
     item_f.style.display = 'none';
@@ -59,7 +58,6 @@ filter.addEventListener('keyup', e => {
     item_c.style.display = 'none';
     item_g.style.display = 'none';
     item_i.style.display = 'none';
-
   } else {
     item_a.style.display = 'initial';
     item_b.style.display = 'initial';
@@ -71,5 +69,4 @@ filter.addEventListener('keyup', e => {
     item_h.style.display = 'initial';
     item_i.style.display = 'initial';
   }
-
 });
