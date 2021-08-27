@@ -73,6 +73,6 @@ filter.addEventListener('keyup', (e) => {
     item_g.style.display = 'initial';
     item_h.style.display = 'initial';
     item_i.style.display = 'initial';
-    item_aa.style.display = 'none';
+    item_aa.style.display = 'initial';
   }
 });
