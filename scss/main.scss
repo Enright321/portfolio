@@ -8,13 +8,17 @@
   margin: 0;
 }
 
+h5 {
+  padding-top: 2rem;
+}
+
 .static {
-  position:absolute;
+  position: absolute;
   background: white;
 }
 
 .static:hover {
-  opacity:0;
+  opacity: 0;
 }
 
 body {
@@ -32,14 +36,15 @@ ul {
   list-style: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 
 img {
   width: 100%;
 }
-
 
 // Arrow
 .arrow {
@@ -59,7 +64,11 @@ img {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -114,7 +123,7 @@ img {
   }
 }
 
-// Header 
+// Header
 #header {
   // Header Home
   &-home {
@@ -139,14 +148,12 @@ img {
     background: $bg-image no-repeat 20% 30% / cover;
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
-
   }
 }
 
 // Home Sections
 #home {
- 
- // Home Section A
+  // Home Section A
   &-a {
     .process {
       display: grid;
@@ -198,8 +205,8 @@ img {
     }
   }
 
-// Home section b
-   &-b {
+  // Home section b
+  &-b {
     .specials {
       margin-top: 3rem;
       display: grid;
@@ -252,17 +259,15 @@ img {
   &-a {
     .text-fields {
       display: grid;
-      grid-template-areas: 
-        'name' 
+      grid-template-areas:
+        'name'
         'email'
         'subject'
         'phone'
-        'message'
-        ;
+        'message';
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
-      
-      
+
       // Grid Area
       .name-input {
         grid-area: name;
@@ -294,7 +299,6 @@ img {
       .text-input {
         padding: 0.5rem 1rem;
       }
-
     }
     button[type='submit'] {
       width: 50%;
